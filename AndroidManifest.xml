@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tebakgambar"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".NasibActivity"
+            android:label="@string/title_activity_nasib" >
+        </activity>
+        <activity
+            android:name=".SambelActivity"
+            android:label="@string/title_activity_sambel" >
+        </activity>
+        <activity
+            android:name=".JawabActivity"
+            android:label="@string/title_activity_jawab" >
+        </activity>
+        <activity
+            android:name=".Tebak1Activity"
+            android:label="@string/title_activity_tebak1" >
+        </activity>
+        <activity
+            android:name=".CintaActivity"
+            android:label="@string/title_activity_cinta" >
+        </activity>
+        <activity
+            android:name=".TembokActivity"
+            android:label="@string/title_activity_tembok" >
+        </activity>
+        <activity
+            android:name=".PedagangActivity"
+            android:label="@string/title_activity_pedagang" >
+        </activity>
+        <activity
+            android:name=".BuangActivity"
+            android:label="@string/title_activity_buang" >
+        </activity>
+        <activity
+            android:name=".KebabActivity"
+            android:label="@string/title_activity_kebab" >
+        </activity>
+        <activity
+            android:name=".KunciActivity"
+            android:label="@string/title_activity_kunci" >
+        </activity>
+        <activity
+            android:name=".PetaActivity"
+            android:label="@string/title_activity_peta" >
+        </activity>
+        <activity
+            android:name=".KunciIActivity"
+            android:label="@string/title_activity_kunci_i" >
+        </activity>
+        <activity
+            android:name=".TempatPenitipanAnakActivity"
+            android:label="@string/title_activity_tempat_penitipan_anak" >
+        </activity>
+        <activity
+            android:name=".SelamatHariNatalActivity"
+            android:label="@string/title_activity_selamat_hari_natal" >
+        </activity>
+        <activity
+            android:name=".NatalActivity"
+            android:label="@string/title_activity_natal" >
+        </activity>
+    </application>
+
+</manifest>
